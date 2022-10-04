@@ -10,6 +10,11 @@ import Vector3 from './Images/Vector (3).svg'
 import Direct from './Images/direct-customer-svgrepo-com 1.svg'
 import Vector4 from './Images/Vector (4).svg'
 import Logos from './Images/unsplash_niUkImZcSP8logos.svg'
+import Blog from './Images/unsplash_HOrhCnQsxnQ.svg'
+import Animate from './Images/unsplash_I6wCDYW6ij8.svg'
+import Camera from './Images/unsplash_6TeIOdNnMaM.svg'
+import Copywrite from './Images/unsplash_MrWOCGKFVDg.svg'
+import Socials from './Images/unsplash_QRKJwE6yfJo (4).svg'
 const Dashboard = () => {
     return ( 
         <div className='container'>
@@ -90,13 +95,37 @@ const Dashboard = () => {
                         <p>Have a unique & creative logo designed to express and represent your brand identity</p>
                     </div>
                     <div className="Logos-Service">
-                        <img src={Logos} alt=''></img>
-                        <p>Have a unique & creative logo designed to express and represent your brand identity</p>
+                        <img className='Logos'  src={Blog} alt=''></img>
+                        <p>Write SEO enriched blog posts as long or short articles on any topic of your choice</p>
                     </div>
                     <div className="Logos-Service">
-                        <img src={Logos} alt=''></img>
-                        <p>Have a unique & creative logo designed to express and represent your brand identity</p>
+                        <img className='Logos'  src={Animate} alt=''></img>
+                        <p>Bring animated characters to life to keep your viewers engaged and entertained</p>
                     </div>
+                </div>
+                <div className="services">
+                    <div className="Logos-Service">
+                        <img className='Logos' src={Camera} alt=''></img>
+                        <p>Introduce your product to potential customers in a clear and creative video</p>
+                    </div>
+                    <div className="Logos-Service">
+                        <img className='Logos'  src={Copywrite} alt=''></img>
+                        <p>Have creative and compelling copies written to boost your product,service or company</p>
+                    </div>
+                    <div className="Logos-Service">
+                        <img className='Logos'  src={Socials} alt=''></img>
+                        <p>Boost sales and awareness with tailor made ads from experts</p>
+                    </div>
+                </div>
+                <div className="register">
+                    <h5>Sign Up For The BETA to see more</h5>
+                    <button className='Business'>Business Name</button>
+                    <button className='Email'>Email</button>
+                    <br></br>
+                    <button className='Notify'><span>N</span>otify me</button>
+                    <br></br>
+                    <button className='SignUp'>Sign up as a freelance partner</button>
+
                 </div>
 
                 
